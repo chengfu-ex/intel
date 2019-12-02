@@ -3,17 +3,24 @@
     color: #fff!important;
     fill: currentColor!important;
     background-color: #3cb46e;
+    height: 40px;
+    width: 90px;
+    border-radius: 7px;
+    font-size:15px;
+    position: relative;
+    top: -125px;
+    left: 550px;
 }
 .searly {
   height: 40px;
   border-radius: 24px;
-  width: 500px;
+  width: 700px;
   background-color: #eee;
   font-size: 14px;
   border: 1px solid transparent;
   border-color: gray;
 }
-.searly input {
+.searly input{
   border: none;
   background-color: #eee;
   font-size: 15px;
@@ -40,14 +47,14 @@
   bottom: 25px;
 }
 .searly{
-  display: inline;
+  display: inline-block;
   position: relative;
   left: 60px;
   bottom: 45px;
 }
 .searly img{
   position: relative;
-  top: 11px;
+  top: 10px;
   left: 10px;
 }
 .searly input{
@@ -57,8 +64,11 @@
 }
 .ulli ul li{
   margin-right: 20px;
-  font-size: 20px;
+  font-size: 15px;
   color: gray;
+  position:relative;
+  top:-50px;
+  left:50px;
 }
 .rightend ul li{
   display: inline-block;
@@ -71,4 +81,27 @@
 }
 .spana a{
   font-weight: 800px;
+}
+.anniu{
+  position: relative;
+  top: -90px;
+  left: 330px;
+}
+.headerend a{
+  position: relative;
+  top: -125px;
+  left: 500px;
+}
+.kaitou a{
+  font-weight: bolder;
+}
+.zhongjian ul li{
+  font-size:14px;
+  color:gray;
+  display:inline-block;
+}
+.zhongjian-2 ul li{
+  font-size:14px;
+  color:gray;
+  display:inline-block;
 }
